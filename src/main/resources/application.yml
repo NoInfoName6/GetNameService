@@ -1,0 +1,3 @@
+spring.application.name: get-name-s
+server:
+  port: 8081

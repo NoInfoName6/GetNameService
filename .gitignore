@@ -1,14 +1,10 @@
-# Compiled class file
-*.class
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
 
 # Log file
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
 
 # Package Files #
 *.jar
