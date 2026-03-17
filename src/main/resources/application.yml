@@ -1,3 +1,18 @@
 spring.application.name: get-name-s
 server:
   port: 8081
+
+spring:
+  # Настройки MongoDB
+  data:
+    mongodb:
+      uri: "mongodb://mongo_adm:pwd@localhost:27017/test?authSource=admin"
+      reactive:
+        repositories:
+          enabled: true
+logging:
+  level:
+    org.springframework.data.mongodb: TRACE
+    org.mongodb.driver: TRACE
+    com.mongodb: TRACE
+    reactor.core: DEBUG
